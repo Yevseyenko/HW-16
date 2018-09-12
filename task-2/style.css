@@ -1,0 +1,110 @@
+html{
+    font:  sans-serif;
+    font-size: 12px
+}
+.menubar{
+    background: white;
+    box-shadow:0px 1px 1px #d4cbd4;
+    position: fixed;
+    width:100%;
+    justify-content:flex-end;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.menubar h3{
+    align-content:left;
+    margin-right:auto;
+    padding:5px;
+}
+.menubar nav{
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    padding:5px;
+    color: gray;
+    font-size: 12px;
+    margin: auto;
+    text-decoration: none;
+}
+.container{
+    padding: 7%;
+    text-align: center;
+    justify-content: center;
+    flex-flow: row;
+    text-decoration-color: #d4cbd4;
+    font: sans-serif;
+}
+.tariffs{
+    width:85%;
+    margin: auto;
+    overflow: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+.tariffs div{
+    box-shadow:0px 1px 1px #d4cbd4;
+    width: 25%;
+    align-items: center;
+    align-content: space-around;
+    margin:auto;
+    text-align:center;    
+}
+.tariffs div ul{
+    padding:5px;
+    text-align:center;
+    list-style-type: none;
+}
+.tariffs div h4{
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px;
+    box-shadow:0px 1px 1px #d4cbd4;
+    background: whitesmoke;
+}
+button{
+    color: white;
+    background:  #313ef5;
+    border: 1px solid  #313ef5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-center:auto;
+    width: 80%;
+    font-size: 100%;
+    margin:10px;
+}
+button.signup{
+    color: #313ef5;
+    background: white;
+    border: 1px solid  #313ef5;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 100%;
+}
+hr{
+    width:85%;
+    margin:25px;
+}
+footer{
+   width:85%;
+    margin: auto;
+    padding: 40px 10px;
+    overflow: auto;
+    display: flex;
+    justify-content:center
+}
+footer div ul{
+    list-style-type: none;
+}
+footer div ul a{
+    color:gray;
+    text-decoration: none;
+}
+footer div strong {
+    margin: auto;
+    display: flex;
+    justify-content:center;
+}
+.text-muted{
+    color:gray;
+}
